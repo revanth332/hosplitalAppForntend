@@ -1,0 +1,23 @@
+.docbox{
+    height:500px;
+}
+.doc{
+    height:100%;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width:500px) {
+   .docbox{
+    height:200px;
+    background-color: rgb(199, 224, 247);
+    border-radius: 50%;
+    /* border:1px solid black; */
+   }
+   .con{
+    justify-content: center;
+   }
+}
